@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPX to Art</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="controls">
+    <input type="file" id="gpxFile" accept=".gpx" />
+    <label>Background:
+      <input type="color" id="bgColor" value="#888888" />
+    </label>
+  </div>
+  <div id="paper">
+    <svg id="svgTrack" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div id="trackName"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gpxparser@git#master/gpxparser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
