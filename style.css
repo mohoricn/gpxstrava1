@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+  margin: 1em;
+}
+
+#paper {
+  width: 600px;
+  height: 800px;
+  background-color: #888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#svgTrack {
+  width: 100%;
+  height: 90%;
+}
+
+#trackName {
+  font-weight: 100;
+  font-size: 1.2em;
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+}
